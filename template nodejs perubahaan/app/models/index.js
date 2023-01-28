@@ -25,6 +25,8 @@ db.deptDB = require("./dept/dept.model")(sequelize, Sequelize);
 db.empDB = require("./emp/emp.model")(sequelize, Sequelize);
 db.managerDB = require("./manager/manager.model")(sequelize, Sequelize);
 db.jobDB = require("./job/job.model")(sequelize, Sequelize);
+db.masterBankDB = require("./masterBank/masterBank.model")(sequelize, Sequelize);
+
 
 //db.bonusDB = require("./bonus/bonus.model")(sequelize, Sequelize);
 
