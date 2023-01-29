@@ -3,8 +3,8 @@ module.exports = (sequelize, Sequelize) => {
         norek: {
             field: 'NOREK',
             // autoIncrement: true,
-            // primaryKey: true,
-            type: Sequelize.STRING
+            primaryKey: true,
+            type: Sequelize.INTEGER
         },
         nama: {
             field: 'NAMA',

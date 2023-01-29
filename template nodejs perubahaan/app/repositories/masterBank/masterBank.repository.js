@@ -6,6 +6,7 @@ function masterBankRepositry(db) {
                 [
                     'norek',
                     'nama',
+                    'alamat',
                     'notelp',
                     'saldo',
                     'user_id'
